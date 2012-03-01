@@ -1,0 +1,15 @@
+Trying to get the exmaple http://static.springsource.org/spring-ws/sites/2.0/reference/html/tutorial.html to work
+
+
+Build (standing in the project root folder [...]/holidayService)
+$ mvn install
+
+
+Deploy in Tomcat
+$ cp target/holidayService.war ../../apache-tomcat-7.0.26/webapps/
+
+(start Tomcat, if not started)
+
+Browse to
+http://localhost:8080/holidayService/holiday.wsdl
+
